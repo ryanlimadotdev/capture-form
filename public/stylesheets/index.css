@@ -1,0 +1,38 @@
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+h1 {
+    text-align: center;
+    color: #505050;
+    font: 800 26px 'Arial';
+}
+
+.input-containers {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+    
+.input-containers span{
+    font: normal 13px monospace;
+    text-align: right;
+    color: #6c6c6c;
+}
+
+.input-containers input {
+    border-radius: 5px;
+    border: 1px solid #808080;
+    padding: 5px;
+}
+
+.input-containers input, button{
+    margin: 5px 0;
+}
+
+button {
+    padding: 5px 15px;
+}

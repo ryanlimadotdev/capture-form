@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="stylesheets/index.css">
+    <title>Captura</title>
+</head>
+<body>
+    <h1>Captura</h1>
+    <div class="center">
+        <form action="POST" netlify>
+            <div class="input-containers">
+                <input type="text" placeholder="Nome completo" name="nome">
+                <input type="email" placeholder="E-mail" name="email">
+                <input type="tel" placeholder="Telefone" name="telefone">
+                <input type="text" placeholder="Produto" name="produto" list="produtos">
+                <span>Caso não encontre o produto desejado sinta-se a vontade para descrevê-lo</span>
+                <datalist id="produtos">
+                    <option value="Produto 1">
+                    <option value="Produto 2">
+                    <option value="Produto 3">
+                </datalist>    
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
